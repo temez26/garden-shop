@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = garden_shop
 build_property.RootNamespace = garden_shop
-build_property.ProjectDir = C:\Users\temek\source\repos\garden-shop\garden-shop\
+build_property.ProjectDir = C:\Users\temek\Source\Repos\garden-shop\garden-shop\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\temek\source\repos\garden-shop\garden-shop
+build_property.MSBuildProjectDirectory = C:\Users\temek\Source\Repos\garden-shop\garden-shop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Error.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Index.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/info.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/info.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/order.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/order.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcb3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Orderconfirmation.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Orderconfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJjb25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Privacy.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Products/Accessories.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Products/Accessories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQWNjZXNzb3JpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Products/Flowers.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Products/Flowers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRmxvd2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Products/Gardentools.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Products/Gardentools.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcR2FyZGVudG9vbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Products/Lawnmovers.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Products/Lawnmovers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcTGF3bm1vdmVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Products/Pestcontrol.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Products/Pestcontrol.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcUGVzdGNvbnRyb2wuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Products/Vegetables.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Products/Vegetables.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcVmVnZXRhYmxlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/userdetail.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/userdetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdXNlcmRldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/_ViewImports.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/_ViewStart.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/temek/source/repos/garden-shop/garden-shop/Pages/Shared/_Layout.cshtml]
+[C:/Users/temek/Source/Repos/garden-shop/garden-shop/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xev6zvsjwn

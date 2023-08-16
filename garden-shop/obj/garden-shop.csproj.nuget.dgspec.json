@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\garden-shop.csproj": {}
+    "C:\\Users\\temek\\Source\\Repos\\garden-shop\\garden-shop\\garden-shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\garden-shop.csproj": {
+    "C:\\Users\\temek\\Source\\Repos\\garden-shop\\garden-shop\\garden-shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\garden-shop.csproj",
+        "projectUniqueName": "C:\\Users\\temek\\Source\\Repos\\garden-shop\\garden-shop\\garden-shop.csproj",
         "projectName": "garden-shop",
-        "projectPath": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\garden-shop.csproj",
+        "projectPath": "C:\\Users\\temek\\Source\\Repos\\garden-shop\\garden-shop\\garden-shop.csproj",
         "packagesPath": "C:\\Users\\temek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\obj\\",
+        "outputPath": "C:\\Users\\temek\\Source\\Repos\\garden-shop\\garden-shop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

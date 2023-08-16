@@ -80,16 +80,32 @@
                     Email: $('#email').val()
                 };
 
-                // Save form data to sessionStorage
+                // Check if the user's information is already stored
                 var orders = JSON.parse(sessionStorage.getItem('orders')) || [];
-                orders.push(formData);
-                sessionStorage.setItem('orders', JSON.stringify(orders));
+                var isInformationStored = orders.some(function (order) {
+                    return (
+                        order.Firstname === formData.Firstname &&
+                        order.Lastname === formData.Lastname &&
+                        order.Postalcode === formData.Postalcode &&
+                        order.City === formData.City &&
+                        order.Address === formData.Address &&
+                        order.Phone === formData.Phone &&
+                        order.Email === formData.Email
+                    );
+                });
+
+                if (!isInformationStored) {
+                    // Save form data to sessionStorage
+                    orders.push(formData);
+                    sessionStorage.setItem('orders', JSON.stringify(orders));
+                }
 
                 // Redirect to the order confirmation page
                 window.location.href = 'Orderconfirmation'; // Replace with the actual URL
             });
         });
     </script>
+
 
 
 </body>
