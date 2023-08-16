@@ -1,0 +1,95 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "something";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+   
+    <title>Shop Website</title>
+</head>
+<body>
+    <div class="row" style="margin-bottom:13%; margin-left:2%;margin-right:2%;">
+        <div class="col-md-12">
+            <div class="main-card">
+                <div class="background-image"></div>
+                <div class="content">
+                    <h2 id="headline"></h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="container" >
+        <div class="row text-white border-bottom" style="font-size:70px; ">
+            <h1>Categories</h1>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-title">Flowers</h5>
+                    <img src="~/images/flowers.jpg" class="card-img-top" loading="lazy" alt="Product 1">
+                    <a asp-page="/Products/Flowers">
+                        <div class="card-overlay"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-title">Vegetables</h5>
+                    <img src="~/images/vegetables.jpg" class="card-img-top" loading="lazy" alt="Product 2">
+                    <a asp-page="/Products/Vegetables">
+                        <div class="card-overlay"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-title">Garden Tools</h5>
+                    <img src="~/images/gardentools.jpg" class="card-img-top" loading="lazy" alt="Product 3">
+                    <a asp-page="/Products/Gardentools">
+                        <div class="card-overlay"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-title">Lawn Movers</h5>
+                    <img src="~/images/lawnmovers.jpg" class="card-img-top" loading="lazy" alt="Product 4">
+                    <a asp-page="/Products/Lawnmovers">
+                        <div class="card-overlay"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-title">Accessories</h5>
+                    <img src="~/images/accessories.jpg" class="card-img-top" loading="lazy" alt="Product 5">
+                    <a asp-page="/Products/Accessories">
+                        <div class="card-overlay"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-title">Pest Control</h5>
+                    <img src="~/images/pestcontrol.jpg" class="card-img-top" loading="lazy" alt="Product 6">
+                    <a asp-page="/Products/Pestcontrol">
+                        <div class="card-overlay"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-bottom:20%;"></div>
+
+   
+
+</body>
+</html>

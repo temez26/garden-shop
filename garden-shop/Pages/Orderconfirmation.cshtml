@@ -1,0 +1,148 @@
+﻿@page
+@model garden.Pages.OrderconfirmationModel
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Window</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        /* Additional styling for the container */
+        .order-box {
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Styling for the table */
+        #orderData {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+            #orderData th, #orderData td {
+                padding: 10px;
+                border-bottom: 1px solid #dee2e6;
+                text-align: left;
+            }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        .btn {
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container order-box d-flex flex-column">
+        <h1 >Order confirmation</h1>
+        <hr>
+
+        <h2>Your Order</h2>
+        <div id="order-items" data-show-trash-icons="false"></div>
+
+
+        <div id="cart-tooltip">
+            <!-- The cart tooltip content -->
+        </div>
+
+        <div id="order-total" style="font-size:20px;"></div>
+        <hr>
+
+        <h2>Shipping information</h2>
+        <div id="address">
+            <table>
+                <tbody id="orderData"></tbody>
+            </table>
+        </div>
+
+        <a id="order-button" class="btn btn-secondary rounded align-self-end">Order now</a>
+    </div>
+
+
+
+    <script>
+       
+            document.addEventListener('DOMContentLoaded', function () {
+                const orderButton = document.getElementById('order-button');
+
+                orderButton.addEventListener('click', function (event) {
+                    event.preventDefault(); // Prevent default form submission
+
+                    // Gather data from HTML elements
+                    const orderItems = document.getElementById('order-items').innerHTML;
+                    const shippingInfo = document.getElementById('orderData').innerHTML;
+
+                    // Prepare the data for sending
+                    const data = {
+                        orderItems: orderItems,
+                        shippingInfo: shippingInfo
+                    };
+
+                    // Send data to the server using Fetch API
+                    fetch('/Order/SendOrderEmail', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(data)
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            alert(data.message); // Display success message
+                        })
+                        .catch(error => {
+                            alert('An error occurred while sending the email.'); // Display error message
+                        });
+                });
+            });
+   
+
+
+
+
+      
+        // Retrieve data from sessionStorage
+        var storedOrders = JSON.parse(sessionStorage.getItem('orders'));
+
+        // Get the table body element
+        var orderDataBody = document.getElementById('orderData');
+
+        // Process the retrieved data
+        if (storedOrders && Array.isArray(storedOrders)) {
+            storedOrders.forEach(function (order, index) {
+                for (var key in order) {
+                    if (order.hasOwnProperty(key)) {
+                        var row = document.createElement('tr');
+                        var keyCell = document.createElement('td');
+                        var valueCell = document.createElement('td');
+
+                        keyCell.textContent = key;
+                        valueCell.textContent = order[key];
+
+                        row.appendChild(keyCell);
+                        row.appendChild(valueCell);
+
+                        orderDataBody.appendChild(row);
+                    }
+                }
+            });
+        } else {
+            var noOrdersRow = document.createElement('tr');
+            noOrdersRow.innerHTML = '<td colspan="2">No orders found in sessionStorage.</td>';
+            orderDataBody.appendChild(noOrdersRow);
+        }
+
+     
+    </script>
+
+</body>
+
+
+
+</html>

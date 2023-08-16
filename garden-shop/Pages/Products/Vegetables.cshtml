@@ -1,0 +1,54 @@
+﻿@page
+@model garden.Pages.Products.VegetablesModel
+@{
+    ViewData["Title"] = "Vegetables";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vegetable Shop</title>
+    <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <h1>Vegetables</h1>
+    <div class="product-card">
+            <div class="card">
+                <img src="/images/carrots.jpg" alt="Vegetable 1">
+                <h5 class="card-title">Carrots</h5>
+                <p class="card-price">€1.99</p>
+                <button class="add-to-cart" data-name="Carrots" data-price="1.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/BroccoliCrown.webp" alt="Vegetable 2">
+                <h5 class="card-title">Broccoli</h5>
+                <p class="card-price">€2.49</p>
+                <button class="add-to-cart" data-name="Broccoli" data-price="2.49">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/tomatoes.webp" alt="Vegetable 3">
+                <h5 class="card-title">Tomatoes</h5>
+                <p class="card-price">€0.99</p>
+                <button class="add-to-cart" data-name="Tomatoes" data-price="0.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/spincah.webp" alt="Vegetable 4">
+                <h5 class="card-title">Spinach</h5>
+                <p class="card-price">€1.49</p>
+                <button class="add-to-cart" data-name="Spinach" data-price="1.49">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/peppers.jpg" alt="Vegetable 5">
+                <h5 class="card-title">Bell Peppers</h5>
+                <p class="card-price">€2.99</p>
+                <button class="add-to-cart" data-name="Bell Peppers" data-price="2.99">Add to Cart</button>
+            </div>
+
+        <!-- Add more vegetable cards with the same structure -->
+    </div>
+
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,46 @@
+﻿@page
+@model garden.Pages.Products.GardentoolsModel
+@{
+    ViewData["Title"] = "Gardentools";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Garden Tools Shop</title>
+    <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <h1>Garden Tools</h1>
+    <div class="product-card">
+            <div class="card">
+                <img src="/images/shovel.jpg" alt="Tool 1">
+                <h5 class="card-title">Shovel</h5>
+                <p class="card-price">€9.99</p>
+                <button class="add-to-cart" data-name="Shovel" data-price="9.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/rake.webp" alt="Tool 2">
+                <h5 class="card-title">Rake</h5>
+                <p class="card-price">€7.99</p>
+                <button class="add-to-cart" data-name="Rake" data-price="7.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/pruning shears.webp" alt="Tool 3">
+                <h5 class="card-title">Pruning Shears</h5>
+                <p class="card-price">€12.99</p>
+                <button class="add-to-cart" data-name="Pruning Shears" data-price="12.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/can.webp" alt="Tool 4">
+                <h5 class="card-title">Watering Can</h5>
+                <p class="card-price">€6.99</p>
+                <button class="add-to-cart" data-name="Watering Can" data-price="6.99">Add to Cart</button>
+            </div>
+
+        <!-- Add more tool cards with the same structure -->
+    </div>
+
+    </div>
+</body>
+</html>

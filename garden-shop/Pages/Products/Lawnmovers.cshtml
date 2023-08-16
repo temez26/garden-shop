@@ -1,0 +1,48 @@
+﻿@page
+@model garden.Pages.Products.LawnmoversModel
+@{
+    ViewData["Title"] = "Lawn Movers";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lawn Mowers Shop</title>
+    <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <h1>Lawn Mowers</h1>
+    <div class="product-card">
+            <div class="card">
+                <img src="/images/lawnmover.webp" alt="Lawn Mower 1">
+                <h5 class="card-title">Gas-powered Lawn Mower</h5>
+                <p class="card-price">€199.99</p>
+                <button class="add-to-cart" data-name="Gas-powered Lawn Mower" data-price="199.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/electric lawn.webp" alt="Lawn Mower 2">
+                <h5 class="card-title">Electric Lawn Mower</h5>
+                <p class="card-price">€149.99</p>
+                <button class="add-to-cart" data-name="Electric Lawn Mower" data-price="149.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/robotic lawn.jpg" alt="Lawn Mower 3">
+                <h5 class="card-title">Robotic Lawn Mower</h5>
+                <p class="card-price">€399.99</p>
+                <button class="add-to-cart" data-name="Robotic Lawn Mower" data-price="399.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/push lawn.webp" alt="Lawn Mower 4">
+                <h5 class="card-title">Push Reel Lawn Mower</h5>
+                <p class="card-price">€89.99</p>
+                <button class="add-to-cart" data-name="Push Reel Lawn Mower" data-price="89.99">Add to Cart</button>
+            </div>
+
+      
+        <!-- Add more lawn mower cards with the same structure -->
+    </div>
+    </div>
+
+   
+</body>
+</html>

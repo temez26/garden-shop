@@ -1,0 +1,208 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+     
+
+        <title>Document</title>
+    </head>
+ 
+    <body>
+        <!--Header-->
+    <div class="container1">
+        <div class="header position-relative">
+            <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="margin-top: 10%;">
+
+                        <h1 class="main-heading">Welcome</h1>
+                        <h3 class="sub-heading">To the world of gardening</h3>
+                    </div>
+                    <div class="carousel-item" style="margin-top: 10%;">
+                        <h1 class="main-heading">Discover</h1>
+                        <h3 class="sub-heading">The secrets of successful gardening</h3>
+                    </div>
+                    <div class="carousel-item" style="margin-top: 10%;">
+                        <h1 class="main-heading">Join us</h1>
+                        <h3 class="sub-heading">For expert gardening advice and more</h3>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="super">
+
+                <h1 class="main-name">Gardening</h1>
+                <p class="sub-name">Tips for professionals and hobbyists</p>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary" style="background-color: red;
+    border-radius: 3px; opacity:0.8;">
+                        Click here to join
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+        
+        <div class="container">
+        
+    
+        <!--Header end-->
+        <!-- About section -->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/images/about-image.png" alt="about-image" class="img-fluid" />
+                </div>
+                <div class="col-md-6 ">
+                    <h1 class="main-heading">About Us</h1>
+                    <h3 class="sub-heading">The people behind this site</h3>
+                    <div class="stars d-flex justify-content-center" style="margin:2%;">
+                        <i class="fas fa-star-of-life star" style="margin:1%; color:white;"></i>
+                        <i class="fas fa-star-of-life star" style="margin:1%; color:white;"></i>
+                        <i class="fas fa-star-of-life star" style="margin:1%; color:white;"></i>
+                    </div>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                        in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="stars d-flex justify-content-center" style="margin:2%;">
+                        <i class="fas fa-star-of-life star" style="margin:1%; color:white;"></i>
+                        <i class="fas fa-star-of-life star" style="margin:1%; color:white;"></i>
+                        <i class="fas fa-star-of-life star" style="margin:1%; color:white;"></i>
+                    </div>
+                    <div class="text-center" style="margin:2%;">
+                        <button type="button" class="btn btn-primary main-btn-custom" style="background-color: red;
+    border-radius: 3px; opacity:0.8;">
+                            Read more
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    
+        <!-- End of About section -->
+        <!-- Gallery section -->
+
+        <section class="container mt-5">
+            <h1 class="text-white">Products</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner" style="border-radius:1%;">
+                    <div class="carousel-item active">
+                        <img src="images/gallery-img-1.jpg" class="d-block w-100" alt="Slide 1" style="opacity:0.9;">
+                        <div class="carousel-caption">
+                            <div class="text-background">
+                                <h5 class="card-overlay-heading">Flowers</h5>
+                                <p class="card-overlay-paragraph">Starting from: 5,00 €</p>
+                                <a asp-page="/Products/Flowers" class="btn btn-primary btn-sm" style="background-color: red;
+    border-radius: 3px; opacity:0.8;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images/gallery-img-2.jpg" class="d-block w-100 border-1" alt="Slide 2" style="opacity:0.9;">
+                        <div class="carousel-caption">
+                            <div class="text-background">
+                                <h5 class="card-overlay-heading">Vegetables</h5>
+                                <p class="card-overlay-paragraph">Starting from: 7,70 €</p>
+                                <a asp-page="/Products/Vegetables" class="btn btn-primary btn-sm" style="background-color: red;
+    border-radius: 3px; opacity:0.8;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/gallery-img-3.jpg" class="d-block w-100" alt="Slide 3" style="opacity:0.9;">
+                        <div class="carousel-caption">
+                            <div class="text-background">
+                                <h5 class="card-overlay-heading">Garden Tools</h5>
+                                <p class="card-overlay-paragraph">Starting from: 30,00 €</p>
+                                <a asp-page="/Products/Gardentools" class="btn btn-primary btn-sm" style="background-color: red;
+    border-radius: 3px; opacity:0.8;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/gallery-img-4.jpg" class="d-block w-100" alt="Slide 4" style="opacity:0.9;">
+                        <div class="carousel-caption">
+                            <div class="text-background">
+                                <h5 class="card-overlay-heading">Lawn Movers</h5>
+                                <p class="card-overlay-paragraph">Starting from: 150,00 €</p>
+                                <a asp-page="/Products/Lawnmovers" class="btn btn-primary btn-sm" style="background-color: red;
+    border-radius: 3px; opacity:0.8;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/gallery-img-5.jpg" class="d-block w-100" alt="Slide 5" style="opacity:0.9;">
+                        <div class="carousel-caption">
+                            <div class="text-background">
+                                <h5 class="card-overlay-heading">Garden Accessories</h5>
+                                <p class="card-overlay-paragraph">Starting from: 6,50 €</p>
+                                <a asp-page ="/Products/Accessories" class="btn btn-primary btn-sm" style="background-color: red;
+    border-radius: 3px; opacity:0.8;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/gallery-img-6.jpg" class="d-block w-100" alt="Slide 6" style="opacity:0.9;">
+                        <div class="carousel-caption">
+                            <div class="text-background">
+                                <h5 class="card-overlay-heading">Pest Control</h5>
+                                <p class="card-overlay-paragraph">Starting from: 300,00 €</p>
+                                <a asp-page="/Products/Pestcontrol" class="btn btn-primary btn-sm" style="background-color: red;
+    border-radius: 3px; opacity:0.8;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>
+
+
+   
+
+    </div>
+   
+    </body>
+
+</html>
+

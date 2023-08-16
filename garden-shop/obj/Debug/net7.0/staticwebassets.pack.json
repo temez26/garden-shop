@@ -1,0 +1,453 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\garden-shop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\garden-shop.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\css\\products.css",
+      "PackagePath": "staticwebassets\\css\\products.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\BroccoliCrown.webp",
+      "PackagePath": "staticwebassets\\images\\BroccoliCrown.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\about-image.png",
+      "PackagePath": "staticwebassets\\images\\about-image.png"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\accessories.jpg",
+      "PackagePath": "staticwebassets\\images\\accessories.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\can.webp",
+      "PackagePath": "staticwebassets\\images\\can.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\carrots.jpg",
+      "PackagePath": "staticwebassets\\images\\carrots.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\electric lawn.webp",
+      "PackagePath": "staticwebassets\\images\\electric lawn.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\flowers.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\funflowers.jpg",
+      "PackagePath": "staticwebassets\\images\\funflowers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\gallery-img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\gallery-img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\gallery-img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\gallery-img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\gallery-img-5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\gallery-img-6.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\garden decoration.jpg",
+      "PackagePath": "staticwebassets\\images\\garden decoration.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\garden1.jpg",
+      "PackagePath": "staticwebassets\\images\\garden1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\garden2.jpg",
+      "PackagePath": "staticwebassets\\images\\garden2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\garden3.jpg",
+      "PackagePath": "staticwebassets\\images\\garden3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\garden4.jpg",
+      "PackagePath": "staticwebassets\\images\\garden4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\gardentools.jpg",
+      "PackagePath": "staticwebassets\\images\\gardentools.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\gloves.webp",
+      "PackagePath": "staticwebassets\\images\\gloves.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\gnopme.jpg",
+      "PackagePath": "staticwebassets\\images\\gnopme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\lawnmover.webp",
+      "PackagePath": "staticwebassets\\images\\lawnmover.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\lawnmovers.jpg",
+      "PackagePath": "staticwebassets\\images\\lawnmovers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\lilies.webp",
+      "PackagePath": "staticwebassets\\images\\lilies.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\nav-img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\nav-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\nav-img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\nav-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\nav-img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\nav-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\peppers.jpg",
+      "PackagePath": "staticwebassets\\images\\peppers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\pest control 1.jpg",
+      "PackagePath": "staticwebassets\\images\\pest control 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\pestcontrol.jpg",
+      "PackagePath": "staticwebassets\\images\\pestcontrol.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\plant pots.webp",
+      "PackagePath": "staticwebassets\\images\\plant pots.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\plant watering globes.jpg",
+      "PackagePath": "staticwebassets\\images\\plant watering globes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\pruning shears.webp",
+      "PackagePath": "staticwebassets\\images\\pruning shears.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\push lawn.webp",
+      "PackagePath": "staticwebassets\\images\\push lawn.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\rake.webp",
+      "PackagePath": "staticwebassets\\images\\rake.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\robotic lawn.jpg",
+      "PackagePath": "staticwebassets\\images\\robotic lawn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\roses.jpg",
+      "PackagePath": "staticwebassets\\images\\roses.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\shovel.jpg",
+      "PackagePath": "staticwebassets\\images\\shovel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\spincah.webp",
+      "PackagePath": "staticwebassets\\images\\spincah.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\stop.png",
+      "PackagePath": "staticwebassets\\images\\stop.png"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\tomatoes.webp",
+      "PackagePath": "staticwebassets\\images\\tomatoes.webp"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\tulips.jpeg",
+      "PackagePath": "staticwebassets\\images\\tulips.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\images\\vegetables.jpg",
+      "PackagePath": "staticwebassets\\images\\vegetables.jpg"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\js\\cart.js",
+      "PackagePath": "staticwebassets\\js\\cart.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\garden-shop\\garden-shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.garden-shop.props",
+      "PackagePath": "build\\garden-shop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.garden-shop.props",
+      "PackagePath": "buildMultiTargeting\\garden-shop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.garden-shop.props",
+      "PackagePath": "buildTransitive\\garden-shop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.garden-shop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

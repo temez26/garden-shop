@@ -1,0 +1,41 @@
+﻿@page
+@model garden.Pages.Products.PestcontrolModel
+@{
+    ViewData["Title"] = "Pest-Control";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Pest Control</title>
+    <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
+    
+</head>
+<body>
+    <div class="container">
+    <h1>Pest Control Services</h1>
+    <div class="product-card">
+        
+        <div class="card">
+            <img src="/images/pest control 1.jpg" alt="Pest Control 1">
+            <h5 class="card-title">Pest Control Option 1</h5>
+            <p class="card-price">€300-€600</p>
+            <button class="add-to-cart" data-name="Pest Control Option 1" data-price="300-600">Add to Cart</button>
+        </div>
+        <div class="card">
+                <img src="/images/pest control 1.jpg" alt="Pest Control 2">
+            <h5 class="card-title">Pest Control Option 2</h5>
+            <p class="card-price">€600-€900</p>
+            <button class="add-to-cart" data-name="Pest Control Option 2" data-price="600-900">Add to Cart</button>
+        </div>
+        <div class="card">
+                <img src="/images/pest control 1.jpg" alt="Pest Control 3">
+            <h5 class="card-title">Pest Control Option 3</h5>
+            <p class="card-price">€900-€1500</p>
+            <button class="add-to-cart" data-name="Pest Control Option 3" data-price="900-1500">Add to Cart</button>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

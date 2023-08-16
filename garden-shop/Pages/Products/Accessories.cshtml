@@ -1,0 +1,49 @@
+﻿@page
+@model garden.Pages.Products.AccessoriesModel
+@{
+    ViewData["Title"] = "Accessories";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Garden Accessories Shop</title>
+    <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <h1>Garden Accessories</h1>
+    <div class="product-card">
+            <div class="card">
+                <img src="/images/gloves.webp" alt="Accessory 1">
+                <h5 class="card-title">Garden Gloves</h5>
+                <p class="card-price">€9.99</p>
+                <button class="add-to-cart" data-name="Garden Gloves" data-price="9.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/plant pots.webp" alt="Accessory 2">
+                <h5 class="card-title">Plant Pots</h5>
+                <p class="card-price">€7.99</p>
+                <button class="add-to-cart" data-name="Plant Pots" data-price="7.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/gnopme.jpg" alt="Accessory 3">
+                <h5 class="card-title">Garden Decorations</h5>
+                <p class="card-price">€12.99</p>
+                <button class="add-to-cart" data-name="Garden Decorations" data-price="12.99">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="/images/plant watering globes.jpg" alt="Accessory 4">
+                <h5 class="card-title">Plant Watering Globes</h5>
+                <p class="card-price">€6.99</p>
+                <button class="add-to-cart" data-name="Plant Watering Globes" data-price="6.99">Add to Cart</button>
+            </div>
+
+        <!-- Add more accessory cards with the same structure -->
+    </div>
+    </div>
+
+ 
+
+   
+</body>
+</html>

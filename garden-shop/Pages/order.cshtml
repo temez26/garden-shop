@@ -1,0 +1,37 @@
+﻿@page
+@model garden.Pages.orderModel
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Window</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+</head>
+<body>
+    <div class="container order-box d-flex flex-column ">
+        <h1>Order Window</h1>
+
+        <hr>
+
+        <h2>Your Order</h2>
+        <div id="order-items" data-show-trash-icons="true"></div>
+        <div class="text-right" id="order-total"></div>
+
+        <hr>
+
+        <div id="cart-tooltip">
+            <!-- The cart tooltip content -->
+        </div>
+        <a href="/userdetail" class="btn btn-secondary rounded align-self-end">Order now</a>
+       
+
+    </div>
+</body>
+</html>
+
+
+
