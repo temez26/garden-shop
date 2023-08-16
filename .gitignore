@@ -1,0 +1,67 @@
+# .NET Core
+bin/
+obj/
+
+# Visual Studio
+.vscode/
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+
+# NuGet
+packages/
+*.nupkg
+*.pdb
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.vscode/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment-specific files
+*.env
+.env.*
+
+# Compiled files
+*.dll
+*.exe
+
+# Debugging and testing artifacts
+TestResults/
+.vsmdi
+*.runsettings
+*.rpt
+*.log
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Ignore Visual Studio Code workspace settings
+.vscode/settings.json
+
+# Ignore Rider workspace settings
+.idea/workspace.xml
+
+# Ignore Visual Studio settings
+*.csproj.user
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore yarn integrity file
+.yarn-integrity
