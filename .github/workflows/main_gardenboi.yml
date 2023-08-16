@@ -34,9 +34,19 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
 
+  clear-cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clear Cache
+        uses: actions/cache@v2
+        with:
+          path: ${{env.DOTNET_ROOT}}/myapp  # The path to the cached directory
+          key: ${{ runner.os }}-clear-cache-${{ github.sha }}
+
   deploy:
     runs-on: ubuntu-latest
-    needs: build
+    needs: [build, clear-cache]  # Wait for the clear-cache job to complete
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
