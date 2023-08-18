@@ -23,6 +23,6 @@ For more information about gardening and related topics, please visit the Garden
 
 [Check the website](https://garden-web.azurewebsites.net/){:target="_blank"}
 
-<a href="[https://www.example.com](https://garden-web.azurewebsites.net/)https://garden-web.azurewebsites.net/" target="_blank">Link Text</a>
+
 
 
