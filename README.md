@@ -21,5 +21,6 @@ The Gardening website is built using the following technologies:
 
 For more information about gardening and related topics, please visit the Gardening website.
 
-- [Check the website](https://garden-web.azurewebsites.net/)
+[Check the website](https://garden-web.azurewebsites.net/){:target="_blank"}
+
 
