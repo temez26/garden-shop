@@ -17,9 +17,7 @@ The Gardening website is built using the following technologies:
 - Bootstrap: A popular CSS framework for building responsive and mobile-first websites.
 - Azure Cloud: A comprehensive cloud computing platform provided by Microsoft for building, deploying, and managing applications and services.
 
-## Link
-
-For more information about gardening website go check it out.
+## Link to the site
 
 [Check the website](https://garden-web.azurewebsites.net/)
 
