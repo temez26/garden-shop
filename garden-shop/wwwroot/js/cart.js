@@ -3,6 +3,7 @@ let cartItems = [];
 
 // Load cart items from local storage
 function loadCartItems() {
+    // Retrieves cart items from local storage
     const storedItems = localStorage.getItem('cartItems');
     if (storedItems) {
         cartItems = JSON.parse(storedItems);
@@ -23,6 +24,7 @@ function calculateTotal(items) {
 
 // Function to update the cart view
 function updateCartView() {
+    // Updates the cart view based on the cart items
     const cartContainer = document.getElementById('cart-items');
     const cartTotal = document.getElementById('cart-total');
 
@@ -32,9 +34,9 @@ function updateCartView() {
     syncData(cartContainer, cartItems);
 }
 
-
 // Function to update the order view
 function updateOrderView() {
+    // Updates the order view based on the cart items
     const orderContainer = document.getElementById('order-items');
     const orderTotal = document.getElementById('order-total');
 
@@ -53,12 +55,11 @@ function updateOrderView() {
     syncData(orderContainer, cartItems);
 }
 
-
-
+// Function to synchronize data with the provided container
 function syncData(container, items) {
+    // Synchronizes the cart data with the UI
     const showTrashIcons = container.getAttribute('data-show-trash-icons') === 'true';
 
-    
     const itemsMap = new Map();
 
     items.forEach(item => {
@@ -69,6 +70,7 @@ function syncData(container, items) {
         }
     });
 
+    // Display the items in the container
     itemsMap.forEach(item => {
         const itemDiv = document.createElement('div');
         itemDiv.classList.add(container.id === 'cart-items' ? 'cart-item' : 'order-item');
@@ -106,10 +108,9 @@ function syncData(container, items) {
     });
 }
 
-
-
 // Function to remove an item from the cart
 function removeItem(itemName) {
+    // Removes an item from the cart and updates the view
     const itemIndex = cartItems.findIndex(item => item.name === itemName);
     if (itemIndex !== -1) {
         cartItems.splice(itemIndex, 1);
@@ -123,9 +124,9 @@ function removeItem(itemName) {
     }
 }
 
-
 // Function to display a notification message
 function showNotification(message) {
+    // Displays a notification message
     const notification = document.createElement('div');
     notification.className = 'notification';
     notification.textContent = message;
@@ -145,10 +146,10 @@ function showNotification(message) {
 
 // Function to handle adding items to the cart
 function addToCart(event) {
+    // Adds items to the cart and updates the view
     const product = event.target.dataset;
     cartItems.push({ name: product.name, price: parseFloat(product.price), quantity: 1 });
     updateCartView();
-    
     saveCartItems(); // Save cart items after adding a new item
 
     // Show the notification
@@ -157,16 +158,16 @@ function addToCart(event) {
 
 // Function to handle emptying the shopping cart
 function emptyCart(event) {
+    // Empties the shopping cart and updates the view
     cartItems = [];
     updateCartView();
-    
     saveCartItems(); // Save cart items after emptying the cart
+
     // Check if the current page is the "order" page
     if (window.location.pathname === '/order') {
         updateOrderView(); // Update the order view after removing an item
     }
 }
-
 
 // Add event listeners to the add-to-cart buttons
 const addButtons = document.getElementsByClassName('add-to-cart');
@@ -176,16 +177,19 @@ Array.from(addButtons).forEach(button => {
 
 // JavaScript code to show/hide the cart tooltip
 function toggleCartTooltip() {
+    // Toggles the cart tooltip display
     const tooltip = document.getElementById('cart-tooltip');
     tooltip.style.display = tooltip.style.display === 'block' ? 'none' : 'block';
 }
 
 function showCartTooltip() {
+    // Displays the cart tooltip
     const tooltip = document.getElementById('cart-tooltip');
     tooltip.style.display = 'block';
 }
 
 function hideCartTooltip() {
+    // Hides the cart tooltip
     const tooltip = document.getElementById('cart-tooltip');
     tooltip.style.display = 'none';
 }
@@ -218,6 +222,7 @@ cartTooltip.appendChild(cartButtonsContainer);
 
 // Function to handle "Order Now" action
 function orderNow() {
+    // Perform actions when the "Order Now" button is clicked
     console.log(10);
 }
 
